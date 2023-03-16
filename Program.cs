@@ -10,7 +10,7 @@ namespace Tester_cs
         private double Radius;
         private double Area;
         private double Circumference;
-        private const double PI = Math.PI;
+        private const double PI = Math.PI; //using built in PI 
 
         //Constructor
         public Circle(double Radius)
@@ -39,16 +39,16 @@ namespace Tester_cs
             Console.WriteLine($"Circumference: {Circumference}");
            
         }
-        //..................
+       
 
         class Program
         {
             static void Main(string[] args)
             {
                 Circle C1 = new Circle(5.0);
-                C1.GetArea();
-                C1.GetCircumference();
-                C1.PrintInfo();
+                C1.GetArea(); //Call to calculate Area
+                C1.GetCircumference(); //Call to calculate Circumference
+                C1.PrintInfo(); 
             }
         }
     }
