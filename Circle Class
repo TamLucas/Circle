@@ -1,0 +1,15 @@
+This C# code defines a Circle class that represents a circle with a given radius. It includes properties to store the radius, area, and circumference of the circle. It also includes methods to calculate the area and circumference of the circle, as well as a method to print out the circle's information.
+
+Properties
+radius: a private double representing the radius of the circle
+area: a private double representing the area of the circle
+circumference: a private double representing the circumference of the circle
+pi: a private double representing the value of pi, set to 3.14
+
+Constructor
+Circle(double radius): initializes the radius property with the given value and sets the area and circumference properties to 0.0.
+
+Methods
+CalculateArea(): calculates the area of the circle using the formula pi * radius * radius and sets the area property to the result.
+CalculateCircumference(): calculates the circumference of the circle using the formula 2 * pi * radius and sets the circumference property to the result.
+PrintInfo(): prints out the circle's information, including its radius, area, and circumference.
